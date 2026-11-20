@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Gyan Inter College | Sikandra, Agra | Excellence in Higher Education</title>
+  <meta name="description" content="Gyan Inter College, Sikandra, Agra. Offering quality degree programs in B.A., B.Sc., M.A., and M.Sc. Affiliated to State University with modern campus, experienced faculty, and high-tech laboratories."/>
+
+  <!-- Material Symbols & Google Fonts (Playfair Display + Plus Jakarta Sans) -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind CSS CDN with Form & Container Plugins -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <!-- Tailwind Configuration matching Google Stitch Design Standard with Red & White Theme -->
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#990000",             // Imperial Red
+            "primary-dark": "#7a0000",        // Deep Ruby
+            "primary-container": "#850a0a",   // Deep Crimson Header
+            "on-primary": "#ffffff",          // Pure White Text
+            "secondary": "#b45309",           // Warm Golden Amber
+            "secondary-fixed": "#f59e0b",     // Vivid Gold
+            "secondary-fixed-dim": "#fbbf24", // Muted Gold Accent
+            "secondary-container": "#fef3c7", // Light Golden Pill
+            "on-secondary-container": "#78350f",
+            "background": "#ffffff",          // Crisp White Background
+            "surface": "#ffffff",
+            "surface-bright": "#fcf8f8",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#fff5f5", // Gentle Rose Tint
+            "surface-container": "#fee2e2",
+            "surface-container-high": "#fecaca",
+            "surface-container-highest": "#fca5a5",
+            "on-surface": "#1e293b",          // Dark Slate Charcoal for High Readability
+            "on-surface-variant": "#475569",
+            "outline": "#94a3b8",
+            "outline-variant": "#e2e8f0",
+            "error": "#b91c1c",
+            "success": "#15803d"
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "2xl": "1rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            "display": ["Playfair Display", "Georgia", "serif"],
+            "headline-lg": ["Playfair Display", "Georgia", "serif"],
+            "headline-md": ["Playfair Display", "Georgia", "serif"],
+            "headline-sm": ["Playfair Display", "Georgia", "serif"],
+            "body-lg": ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            "body-md": ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            "body-sm": ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            "label-lg": ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            "label-md": ["Plus Jakarta Sans", "system-ui", "sans-serif"],
+            "label-sm": ["Plus Jakarta Sans", "system-ui", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .material-symbols-fill {
+      font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+    }
+    .carousel-slide {
+      transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .red-gold-gradient {
+      background: linear-gradient(135deg, #990000 0%, #7a0000 60%, #520000 100%);
+    }
+    .gold-accent-border {
+      border-color: rgba(212, 175, 55, 0.45);
+    }
+    .red-subtle-glow {
+      box-shadow: 0 10px 25px -5px rgba(153, 0, 0, 0.15), 0 8px 10px -6px rgba(153, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md antialiased selection:bg-primary selection:text-white min-h-screen flex flex-col">
+
+  <!-- ================= TOP NOTIFICATION TICKER / PRE-HEADER ================= -->
+  <aside aria-label="Admissions Alert" class="w-full bg-primary-dark text-white py-2 px-4 border-b border-primary/40 text-xs relative z-50">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+      <!-- Notice Ticker -->
+      <div class="flex items-center gap-2 overflow-hidden w-full md:w-auto">
+        <span class="inline-flex items-center gap-1 bg-secondary-fixed text-primary-dark px-2 py-0.5 rounded text-[11px] font-bold tracking-wider uppercase shrink-0 shadow-sm">
+          <span class="material-symbols-outlined text-xs material-symbols-fill">campaign</span> Admissions 2025-26
+        </span>
+        <p class="truncate text-white/95 font-medium">
+          Admissions open for B.A., B.Sc., M.A. &amp; M.Sc. Programs | Sikandra, Agra Campus | Direct Enquiry: +91 6543223443
+        </p>
+      </div>
+
+      <!-- Quick Contact Info -->
+      <div class="hidden md:flex items-center gap-5 text-white/90 shrink-0 font-medium">
+        <span class="flex items-center gap-1 hover:text-secondary-fixed transition-colors">
+          <span class="material-symbols-outlined text-sm text-secondary-fixed">location_on</span> Sikandra, Agra, U.P.
+        </span>
+        <span class="text-white/30">|</span>
+        <a class="flex items-center gap-1 hover:text-secondary-fixed transition-colors" href="tel:6543223443">
+          <span class="material-symbols-outlined text-sm text-secondary-fixed">call</span> +91 6543223443
+        </a>
+        <span class="text-white/30">|</span>
+        <a class="flex items-center gap-1 hover:text-secondary-fixed transition-colors" href="mailto:gyanintercollage@gmail.com">
+          <span class="material-symbols-outlined text-sm text-secondary-fixed">mail</span> gyanintercollage@gmail.com
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================= DUAL-TIER EXECUTIVE NAVIGATION BAR ================= -->
+  <header class="top-0 sticky z-50 bg-white/95 backdrop-blur-md border-b-2 border-primary shadow-md transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 md:px-6 flex justify-between items-center h-20">
+      
+      <!-- College Crest & Brand -->
+      <a class="flex items-center gap-3.5 group focus:outline-none" href="index.html">
+        <div class="w-13 h-13 md:w-14 md:h-14 rounded-full overflow-hidden p-0.5 border-2 border-primary/30 group-hover:border-primary shadow-md transition-transform group-hover:scale-105 bg-white shrink-0">
+          <img alt="Gyan Inter College Crest Sikandra Agra" class="w-full h-full object-contain" src="assets/logo.svg"/>
+        </div>
+        <div class="flex flex-col text-left">
+          <span class="font-headline-sm font-bold text-xl md:text-2xl text-primary tracking-tight leading-tight group-hover:text-primary-dark transition-colors">
+            GYAN INTER COLLEGE
+          </span>
+          <span class="text-[10px] md:text-xs font-semibold tracking-wider uppercase text-on-surface-variant flex items-center gap-1">
+            <span class="inline-block w-1.5 h-1.5 rounded-full bg-primary"></span> Sikandra, Agra • Affiliated &amp; Approved
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center gap-7 font-label-lg text-sm font-semibold">
+        <a class="text-primary border-b-2 border-primary pb-1 font-bold" href="index.html">Home</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors py-1" href="about.html">About Us</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors py-1" href="courses.html">Courses &amp; Academics</a>
+        <a class="text-on-surface-variant hover:text-primary transition-colors py-1" href="contact.html">Contact Us</a>
+      </nav>
+
+      <!-- Trailing Action Cluster -->
+      <div class="flex items-center gap-3">
+        <!-- Student Portal Button -->
+        <a class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 border border-primary/40 text-primary hover:bg-primary hover:text-white rounded-lg text-xs font-bold transition-all" href="courses.html">
+          <span class="material-symbols-outlined text-base">school</span>
+          <span>Programmes</span>
+        </a>
+
+        <!-- Admission Enquiry CTA Button -->
+        <a class="inline-flex items-center gap-2 px-4 py-2.5 bg-primary hover:bg-primary-dark text-white rounded-lg text-xs md:text-sm font-bold shadow-md hover:shadow-lg transition-all duration-200" href="contact.html">
+          <span class="material-symbols-outlined text-base material-symbols-fill">person_add</span>
+          <span>Admission Enquiry</span>
+        </a>
+
+        <!-- Mobile Menu Trigger -->
+        <button aria-label="Toggle Navigation Menu" class="lg:hidden p-2 text-primary hover:bg-surface-container-low rounded-lg transition-colors" id="mobileMenuBtn">
+          <span class="material-symbols-outlined text-2xl" id="menuIcon">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="hidden lg:hidden bg-white border-t border-primary/20 px-6 py-5 space-y-3 shadow-xl" id="mobileMenu">
+      <a class="block py-2 text-primary font-bold border-b border-outline-variant/50" href="index.html">Home</a>
+      <a class="block py-2 text-on-surface-variant hover:text-primary font-medium border-b border-outline-variant/50" href="about.html">About College</a>
+      <a class="block py-2 text-on-surface-variant hover:text-primary font-medium border-b border-outline-variant/50" href="courses.html">Courses (B.A., B.Sc., M.A., M.Sc.)</a>
+      <a class="block py-2 text-on-surface-variant hover:text-primary font-medium border-b border-outline-variant/50" href="contact.html">Contact &amp; Enquiry</a>
+      <div class="pt-3 flex flex-col gap-2">
+        <a class="text-center py-2.5 bg-primary text-white font-bold rounded-lg shadow" href="contact.html">Apply for Admission</a>
+        <a class="text-center py-2 border border-primary text-primary font-bold rounded-lg" href="tel:6543223443">Call: +91 6543223443</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    <!-- ================= HERO SLIDER SECTION ================= -->
+    <section class="relative w-full overflow-hidden bg-primary-dark min-h-[580px] md:min-h-[660px] flex items-center">
+      <!-- Carousel Background Container -->
+      <div class="absolute inset-0 w-full h-full" id="carouselTrack">
+        <!-- Slide 1: Main Campus Architecture -->
+        <div class="carousel-slide absolute inset-0 w-full h-full opacity-100">
+          <img alt="Gyan Inter College Campus Sikandra Agra" class="w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1920&q=80"/>
+        </div>
+        <!-- Slide 2: Academic Library & Study Bays -->
+        <div class="carousel-slide absolute inset-0 w-full h-full opacity-0">
+          <img alt="Gyan Inter College Modern Library" class="w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1920&q=80"/>
+        </div>
+        <!-- Slide 3: Advanced Laboratories -->
+        <div class="carousel-slide absolute inset-0 w-full h-full opacity-0">
+          <img alt="Gyan Inter College Science Laboratories" class="w-full h-full object-cover object-center" src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1920&q=80"/>
+        </div>
+      </div>
+
+      <!-- Scrim Gradients in Royal Red & Charcoal for Unmatched Text Contrast -->
+      <div class="absolute inset-0 bg-gradient-to-r from-primary-dark/95 via-primary-container/85 to-primary-dark/60 md:to-transparent z-10 pointer-events-none"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30 z-10 pointer-events-none"></div>
+
+      <!-- Hero Content -->
+      <div class="relative z-20 max-w-7xl mx-auto px-4 md:px-6 w-full py-16 md:py-24">
+        <div class="max-w-2xl lg:max-w-3xl space-y-6">
+          
+          <!-- Institutional Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
+            <span class="material-symbols-outlined text-secondary-fixed text-base material-symbols-fill">verified</span>
+            <span class="text-xs font-bold tracking-wider uppercase text-white">
+              Premier Higher Education Institution in Sikandra, Agra
+            </span>
+          </div>
+
+          <!-- Hero Headline -->
+          <h1 class="font-headline-lg text-4xl sm:text-5xl lg:text-6xl text-white font-bold leading-tight tracking-tight drop-shadow-md">
+            Nurturing Wisdom, <span class="italic font-normal text-secondary-fixed-dim">Empowering Futures</span>
+          </h1>
+
+          <!-- Hero Description -->
+          <p class="text-base sm:text-lg text-white/90 font-normal leading-relaxed max-w-2xl">
+            Welcome to <strong class="text-white font-bold">Gyan Inter College</strong>, Sikandra, Agra. Delivering academically rigorous undergraduate and postgraduate programs in <strong>B.A., B.Sc., M.A., and M.Sc.</strong> equipped with modern research labs, experienced faculty, and moral values.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="pt-2 flex flex-wrap items-center gap-4">
+            <a class="inline-flex items-center gap-2 px-7 py-3.5 bg-primary hover:bg-primary-dark text-white font-bold rounded-lg shadow-xl hover:shadow-2xl transition-all duration-200 border-2 border-white/30 hover:-translate-y-0.5 text-sm" href="courses.html">
+              <span>Explore Programs (UG &amp; PG)</span>
+              <span class="material-symbols-outlined text-lg">arrow_forward</span>
+            </a>
+            <a class="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-primary hover:bg-surface-container-low font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 text-sm" href="contact.html">
+              <span class="material-symbols-outlined text-lg material-symbols-fill">contact_phone</span>
+              <span>Admission Enquiry</span>
+            </a>
+          </div>
+
+          <!-- Slide Controls & Indicators -->
+          <div class="flex items-center gap-4 pt-4">
+            <div class="flex items-center gap-2">
+              <button aria-label="Slide 1" class="carousel-dot w-8 h-2 rounded-full bg-secondary-fixed transition-all" onclick="goToSlide(0)"></button>
+              <button aria-label="Slide 2" class="carousel-dot w-2.5 h-2 rounded-full bg-white/40 hover:bg-secondary-fixed transition-all" onclick="goToSlide(1)"></button>
+              <button aria-label="Slide 3" class="carousel-dot w-2.5 h-2 rounded-full bg-white/40 hover:bg-secondary-fixed transition-all" onclick="goToSlide(2)"></button>
+            </div>
+            <span class="text-xs font-semibold text-white/80 tracking-widest pl-2">
+              <span class="text-secondary-fixed font-bold" id="currentSlideDisplay">01</span> / 03
+            </span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Arrow Navigation -->
+      <button aria-label="Previous Slide" class="absolute left-4 top-1/2 -translate-y-1/2 z-20 hidden md:flex items-center justify-center w-11 h-11 rounded-full bg-black/40 hover:bg-primary text-white border border-white/30 backdrop-blur-sm transition-all" onclick="prevSlide()">
+        <span class="material-symbols-outlined">chevron_left</span>
+      </button>
+      <button aria-label="Next Slide" class="absolute right-4 top-1/2 -translate-y-1/2 z-20 hidden md:flex items-center justify-center w-11 h-11 rounded-full bg-black/40 hover:bg-primary text-white border border-white/30 backdrop-blur-sm transition-all" onclick="nextSlide()">
+        <span class="material-symbols-outlined">chevron_right</span>
+      </button>
+    </section>
+
+    <!-- ================= QUICK METRICS HIGHLIGHTS BAR ================= -->
+    <section class="bg-primary text-white border-y border-white/20 py-7 px-4 md:px-6 shadow-md">
+      <div class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+        <div class="p-3 border-r last:border-r-0 border-white/20 flex flex-col items-center">
+          <span class="font-headline-md text-3xl md:text-4xl font-bold text-secondary-fixed-dim">25+</span>
+          <span class="text-xs uppercase tracking-wider text-white/90 font-semibold mt-1">Dedicated Faculty</span>
+        </div>
+        <div class="p-3 border-r-0 lg:border-r border-white/20 flex flex-col items-center">
+          <span class="font-headline-md text-3xl md:text-4xl font-bold text-secondary-fixed-dim">2,000+</span>
+          <span class="text-xs uppercase tracking-wider text-white/90 font-semibold mt-1">Alumni &amp; Scholars</span>
+        </div>
+        <div class="p-3 border-r last:border-r-0 border-white/20 flex flex-col items-center">
+          <span class="font-headline-md text-3xl md:text-4xl font-bold text-secondary-fixed-dim">100%</span>
+          <span class="text-xs uppercase tracking-wider text-white/90 font-semibold mt-1">Mentorship &amp; Guidance</span>
+        </div>
+        <div class="p-3 flex flex-col items-center">
+          <span class="font-headline-md text-3xl md:text-4xl font-bold text-secondary-fixed-dim">10+ Acre</span>
+          <span class="text-xs uppercase tracking-wider text-white/90 font-semibold mt-1">Sikandra Campus</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURED COURSES SECTION (B.A., B.Sc., M.A., M.Sc.) ================= -->
+    <section class="py-16 md:py-24 px-4 md:px-6 bg-surface-container-low/60" id="courses">
+      <div class="max-w-7xl mx-auto space-y-12">
+        
+        <!-- Section Header -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-primary/20 pb-6">
+          <div class="space-y-2">
+            <div class="inline-flex items-center gap-2 text-primary text-xs font-bold uppercase tracking-widest">
+              <span class="w-8 h-0.5 bg-primary"></span>
+              Academic Offerings
+            </div>
+            <h2 class="font-headline-lg text-3xl md:text-4xl font-bold text-primary tracking-tight">
+              Featured Degree Programs
+            </h2>
+            <p class="text-on-surface-variant text-sm md:text-base max-w-2xl">
+              Undergraduate and postgraduate degrees structured in accordance with University curriculum and NEP guidelines, preparing Agra's students for competitive careers.
+            </p>
+          </div>
+          <a class="inline-flex items-center gap-2 text-primary hover:text-primary-dark font-bold text-sm" href="courses.html">
+            <span>View Complete Syllabus Details</span>
+            <span class="material-symbols-outlined text-base">arrow_forward</span>
+          </a>
+        </div>
+
+        <!-- 4 Core Courses Grid (B.A., B.Sc., M.A., M.Sc.) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Card 1: B.A. -->
+          <div class="bg-white rounded-xl border-2 border-primary/15 hover:border-primary shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-4">
+                <span class="px-2.5 py-1 bg-surface-container-low text-primary text-xs font-bold rounded border border-primary/20">Undergraduate</span>
+                <span class="text-xs text-on-surface-variant font-semibold">3 Years</span>
+              </div>
+              <div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                <span class="material-symbols-outlined text-2xl">menu_book</span>
+              </div>
+              <h3 class="font-headline-sm text-xl font-bold text-primary mb-1">Bachelor of Arts (B.A.)</h3>
+              <p class="text-xs text-secondary font-semibold uppercase tracking-wider mb-3">Humanities &amp; Social Sciences</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                Covers Hindi Literature, English, Political Science, History, Economics, and Sociology. Develops analytical skills and strong foundation for Civil Services.
+              </p>
+              <div class="mt-4 pt-4 border-t border-outline-variant text-xs text-on-surface-variant space-y-1.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-outline">Eligibility:</span>
+                  <span class="font-semibold text-primary">10+2 Any Stream</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-outline">Mode:</span>
+                  <span class="font-semibold text-on-surface">Full-Time Regular</span>
+                </div>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <a class="w-full py-2.5 px-4 bg-primary hover:bg-primary-dark text-white rounded-lg text-xs font-bold text-center block transition-colors shadow-sm" href="courses.html#ba">
+                View Syllabus &amp; Apply
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: B.Sc. -->
+          <div class="bg-white rounded-xl border-2 border-primary/15 hover:border-primary shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-4">
+                <span class="px-2.5 py-1 bg-surface-container-low text-primary text-xs font-bold rounded border border-primary/20">Undergraduate</span>
+                <span class="text-xs text-on-surface-variant font-semibold">3 Years</span>
+              </div>
+              <div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                <span class="material-symbols-outlined text-2xl">science</span>
+              </div>
+              <h3 class="font-headline-sm text-xl font-bold text-primary mb-1">Bachelor of Science (B.Sc.)</h3>
+              <p class="text-xs text-secondary font-semibold uppercase tracking-wider mb-3">Physical &amp; Life Sciences</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                Offered in PCM (Physics, Chemistry, Maths) and ZBC (Zoology, Botany, Chemistry) with extensive wet-lab practicals and research orientation.
+              </p>
+              <div class="mt-4 pt-4 border-t border-outline-variant text-xs text-on-surface-variant space-y-1.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-outline">Eligibility:</span>
+                  <span class="font-semibold text-primary">10+2 with Science</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-outline">Laboratories:</span>
+                  <span class="font-semibold text-on-surface">Modern &amp; Equipped</span>
+                </div>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <a class="w-full py-2.5 px-4 bg-primary hover:bg-primary-dark text-white rounded-lg text-xs font-bold text-center block transition-colors shadow-sm" href="courses.html#bsc">
+                View Syllabus &amp; Apply
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: M.A. -->
+          <div class="bg-white rounded-xl border-2 border-primary/15 hover:border-primary shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-4">
+                <span class="px-2.5 py-1 bg-primary text-white text-xs font-bold rounded">Postgraduate</span>
+                <span class="text-xs text-on-surface-variant font-semibold">2 Years</span>
+              </div>
+              <div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                <span class="material-symbols-outlined text-2xl">history_edu</span>
+              </div>
+              <h3 class="font-headline-sm text-xl font-bold text-primary mb-1">Master of Arts (M.A.)</h3>
+              <p class="text-xs text-secondary font-semibold uppercase tracking-wider mb-3">Postgraduate Humanities</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                Advanced postgraduate studies in Hindi, English, Political Science, History, and Sociology. Ideal for teaching, UGC-NET/JRF, and academia.
+              </p>
+              <div class="mt-4 pt-4 border-t border-outline-variant text-xs text-on-surface-variant space-y-1.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-outline">Eligibility:</span>
+                  <span class="font-semibold text-primary">Graduation in Stream</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-outline">Research:</span>
+                  <span class="font-semibold text-on-surface">Dissertation Included</span>
+                </div>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <a class="w-full py-2.5 px-4 bg-primary hover:bg-primary-dark text-white rounded-lg text-xs font-bold text-center block transition-colors shadow-sm" href="courses.html#ma">
+                View Syllabus &amp; Apply
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: M.Sc. -->
+          <div class="bg-white rounded-xl border-2 border-primary/15 hover:border-primary shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            <div class="p-6">
+              <div class="flex items-center justify-between mb-4">
+                <span class="px-2.5 py-1 bg-primary text-white text-xs font-bold rounded">Postgraduate</span>
+                <span class="text-xs text-on-surface-variant font-semibold">2 Years</span>
+              </div>
+              <div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-4 group-hover:bg-primary group-hover:text-white transition-colors">
+                <span class="material-symbols-outlined text-2xl">biotech</span>
+              </div>
+              <h3 class="font-headline-sm text-xl font-bold text-primary mb-1">Master of Science (M.Sc.)</h3>
+              <p class="text-xs text-secondary font-semibold uppercase tracking-wider mb-3">Postgraduate Science</p>
+              <p class="text-sm text-on-surface-variant leading-relaxed line-clamp-3">
+                Specializations in Mathematics, Chemistry, Physics, and Life Sciences. State-of-the-art laboratory experimentation and CSIR-NET coaching.
+              </p>
+              <div class="mt-4 pt-4 border-t border-outline-variant text-xs text-on-surface-variant space-y-1.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-outline">Eligibility:</span>
+                  <span class="font-semibold text-primary">B.Sc. Relevant Subject</span>
+                </div>
+                <div class="flex items-center justify-between">
+                  <span class="text-outline">Scope:</span>
+                  <span class="font-semibold text-on-surface">R&amp;D, Teaching &amp; Industry</span>
+                </div>
+              </div>
+            </div>
+            <div class="p-6 pt-0">
+              <a class="w-full py-2.5 px-4 bg-primary hover:bg-primary-dark text-white rounded-lg text-xs font-bold text-center block transition-colors shadow-sm" href="courses.html#msc">
+                View Syllabus &amp; Apply
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ABOUT GYAN INTER COLLEGE (Editorial Section) ================= -->
+    <section class="py-16 md:py-24 px-4 md:px-6 bg-white" id="about">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Text Narrative -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-surface-container-low border border-primary/20 text-primary font-bold text-xs uppercase tracking-wide">
+            <span class="material-symbols-outlined text-sm">school</span>
+            About Gyan Inter College
+          </div>
+
+          <h2 class="font-headline-lg text-3xl md:text-4xl text-primary font-bold leading-tight">
+            Cultivating Knowledge, Character &amp; Academic Distinction in Agra
+          </h2>
+
+          <p class="text-on-surface-variant leading-relaxed text-sm md:text-base">
+            Located in the historic and educational hub of <strong>Sikandra, Agra</strong>, Gyan Inter College was founded with an unyielding mission to provide high-quality, value-based collegiate education to aspiring students of Agra and neighboring regions.
+          </p>
+
+          <p class="text-on-surface-variant leading-relaxed text-sm md:text-base">
+            We merge traditional disciplinary values with modern scientific temperament. Our sprawling campus accommodates spacious lecture halls, well-stocked libraries, hi-tech science and computing labs, and active student mentorship cells.
+          </p>
+
+          <!-- Highlights List -->
+          <div class="space-y-3 pt-2">
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                <span class="material-symbols-outlined text-base material-symbols-fill">verified</span>
+              </span>
+              <span class="text-on-surface font-semibold text-sm">State University Affiliated Degree Curricula with Continuous Evaluation</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                <span class="material-symbols-outlined text-base material-symbols-fill">verified</span>
+              </span>
+              <span class="text-on-surface font-semibold text-sm">Expert Faculty with Ph.D. &amp; Masters Level Academic Pedagogy</span>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+                <span class="material-symbols-outlined text-base material-symbols-fill">verified</span>
+              </span>
+              <span class="text-on-surface font-semibold text-sm">Scholarships &amp; Fee Concessions for Meritorious and Rural Students</span>
+            </div>
+          </div>
+
+          <div class="pt-4 flex items-center gap-4">
+            <a class="inline-flex items-center gap-2 px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg text-sm font-bold shadow transition-all" href="about.html">
+              <span>Read College Profile</span>
+              <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </a>
+            <a class="inline-flex items-center gap-2 px-6 py-3 border border-primary text-primary hover:bg-surface-container-low rounded-lg text-sm font-bold transition-all" href="contact.html">
+              <span>Visit Sikandra Campus</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Campus Showcase Image with Red-Gold Accent Frame -->
+        <div class="lg:col-span-6 relative">
+          <div class="relative mx-auto max-w-lg lg:max-w-none">
+            <!-- Decorative Accent Border Frame -->
+            <div class="absolute -top-4 -right-4 w-full h-full border-2 border-primary/30 rounded-2xl pointer-events-none hidden sm:block"></div>
+            
+            <!-- Image Wrapper -->
+            <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-outline-variant bg-surface-container-low">
+              <img alt="Gyan Inter College Administrative Building and Lawns Sikandra Agra" class="w-full h-auto object-cover transform hover:scale-102 transition-transform duration-500" src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=80"/>
+              
+              <!-- Floating Hallmark Badge -->
+              <div class="absolute bottom-4 left-4 right-4 sm:right-auto bg-primary/95 backdrop-blur-md text-white p-4 rounded-xl border border-white/20 shadow-xl flex items-center gap-3">
+                <div class="p-2.5 bg-white text-primary rounded-lg">
+                  <span class="material-symbols-outlined text-2xl material-symbols-fill">account_balance</span>
+                </div>
+                <div>
+                  <p class="font-bold text-white text-sm">Gyan Inter College</p>
+                  <p class="text-xs text-white/90">Sikandra, Agra • Established with Vision</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= VISION & MISSION INTERACTIVE TABS ================= -->
+    <section class="py-16 md:py-24 px-4 md:px-6 bg-surface-container-low/40 border-t border-outline-variant/60">
+      <div class="max-w-7xl mx-auto space-y-10">
+        
+        <div class="text-center max-w-2xl mx-auto space-y-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-primary">Institutional Core</span>
+          <h2 class="font-headline-lg text-3xl md:text-4xl font-bold text-primary">
+            Our Vision &amp; Strategic Mission
+          </h2>
+          <p class="text-sm md:text-base text-on-surface-variant">
+            Guiding students of Sikandra, Agra towards intellectual independence, ethical integrity, and professional leadership.
+          </p>
+        </div>
+
+        <!-- Tab Controls -->
+        <div class="flex justify-center">
+          <div class="inline-flex p-1.5 bg-white rounded-xl border border-primary/20 shadow-sm">
+            <button class="px-6 py-2.5 rounded-lg text-sm font-bold transition-all duration-200 bg-primary text-white shadow" id="tabVisionBtn" onclick="switchTab('vision')">
+              Our Vision
+            </button>
+            <button class="px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary" id="tabMissionBtn" onclick="switchTab('mission')">
+              Our Mission
+            </button>
+          </div>
+        </div>
+
+        <!-- Tab Content Card -->
+        <div class="max-w-4xl mx-auto">
+          <!-- Vision -->
+          <div class="block bg-white p-8 md:p-12 rounded-2xl border-2 border-primary/15 shadow-sm relative overflow-hidden" id="visionContent">
+            <div class="absolute -right-6 -bottom-6 text-primary/5 select-none pointer-events-none">
+              <span class="material-symbols-outlined text-[160px]">visibility</span>
+            </div>
+            <div class="relative space-y-5">
+              <div class="flex items-center gap-3">
+                <span class="p-3 rounded-lg bg-surface-container-low text-primary">
+                  <span class="material-symbols-outlined text-2xl material-symbols-fill">lightbulb</span>
+                </span>
+                <h3 class="font-headline-md text-2xl font-bold text-primary">The Vision of Gyan Inter College</h3>
+              </div>
+              <blockquote class="text-base md:text-lg text-on-surface italic border-l-4 border-primary pl-4 leading-relaxed font-serif">
+                "To be a distinguished citadel of collegiate learning in Agra, where every youth is endowed with analytical intellect, moral rectitude, technological fluency, and leadership to positively transform society."
+              </blockquote>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+                <div class="p-4 rounded-xl bg-surface-container-low border border-primary/10">
+                  <span class="font-bold text-primary text-sm flex items-center gap-1.5 mb-1">
+                    <span class="material-symbols-outlined text-base">psychology</span> Intellectual Rigor
+                  </span>
+                  <p class="text-xs text-on-surface-variant leading-relaxed">Deep conceptual understanding across all Arts and Science curriculums.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-surface-container-low border border-primary/10">
+                  <span class="font-bold text-primary text-sm flex items-center gap-1.5 mb-1">
+                    <span class="material-symbols-outlined text-base">shield</span> Moral Rectitude
+                  </span>
+                  <p class="text-xs text-on-surface-variant leading-relaxed">Cultivating discipline, civic responsibility, and timeless Indian values.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-surface-container-low border border-primary/10">
+                  <span class="font-bold text-primary text-sm flex items-center gap-1.5 mb-1">
+                    <span class="material-symbols-outlined text-base">rocket_launch</span> Career Success
+                  </span>
+                  <p class="text-xs text-on-surface-variant leading-relaxed">Preparation for civil services, academic teaching, and higher studies.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mission -->
+          <div class="hidden bg-white p-8 md:p-12 rounded-2xl border-2 border-primary/15 shadow-sm relative overflow-hidden" id="missionContent">
+            <div class="absolute -right-6 -bottom-6 text-primary/5 select-none pointer-events-none">
+              <span class="material-symbols-outlined text-[160px]">track_changes</span>
+            </div>
+            <div class="relative space-y-5">
+              <div class="flex items-center gap-3">
+                <span class="p-3 rounded-lg bg-surface-container-low text-primary">
+                  <span class="material-symbols-outlined text-2xl material-symbols-fill">flag</span>
+                </span>
+                <h3 class="font-headline-md text-2xl font-bold text-primary">Our Actionable Mission</h3>
+              </div>
+              <blockquote class="text-base md:text-lg text-on-surface italic border-l-4 border-primary pl-4 leading-relaxed font-serif">
+                "To deliver inclusive, student-centric academic programs backed by modern laboratories, empathetic teaching, affordable fee structures, and career counseling to every deserving student in Agra."
+              </blockquote>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+                <div class="p-4 rounded-xl bg-surface-container-low border border-primary/10">
+                  <span class="font-bold text-primary text-sm flex items-center gap-1.5 mb-1">
+                    <span class="material-symbols-outlined text-base">menu_book</span> Academic Mastery
+                  </span>
+                  <p class="text-xs text-on-surface-variant leading-relaxed">Continuous internal evaluation, syllabus coverage, and regular tests.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-surface-container-low border border-primary/10">
+                  <span class="font-bold text-primary text-sm flex items-center gap-1.5 mb-1">
+                    <span class="material-symbols-outlined text-base">diversity_3</span> Equal Opportunity
+                  </span>
+                  <p class="text-xs text-on-surface-variant leading-relaxed">Empowering female students and economically modest families of Agra.</p>
+                </div>
+                <div class="p-4 rounded-xl bg-surface-container-low border border-primary/10">
+                  <span class="font-bold text-primary text-sm flex items-center gap-1.5 mb-1">
+                    <span class="material-symbols-outlined text-base">terminal</span> Scientific Temper
+                  </span>
+                  <p class="text-xs text-on-surface-variant leading-relaxed">Practical lab experience in Physics, Chemistry, Biology, and Computing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= CAMPUS INFRASTRUCTURE & FACILITIES ================= -->
+    <section class="py-16 md:py-24 px-4 md:px-6 bg-white" id="facilities">
+      <div class="max-w-7xl mx-auto space-y-12">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-primary/20 pb-6">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-primary">Sikandra Campus Amenities</span>
+            <h2 class="font-headline-lg text-3xl md:text-4xl font-bold text-primary mt-1">
+              World-Class Infrastructure
+            </h2>
+            <p class="text-on-surface-variant text-sm md:text-base max-w-xl">
+              An inspiring academic ecosystem equipped for 21st-century scholars.
+            </p>
+          </div>
+          <a class="inline-flex items-center gap-2 text-primary hover:text-primary-dark font-bold text-sm" href="contact.html">
+            <span>Schedule Campus Visit</span>
+            <span class="material-symbols-outlined text-base">arrow_forward</span>
+          </a>
+        </div>
+
+        <!-- Facilities Bento-Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Facility 1: Central Library -->
+          <div class="bg-surface-container-low rounded-xl overflow-hidden border border-primary/20 hover:border-primary shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img alt="Central Academic Library Gyan Inter College" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80"/>
+              <span class="absolute top-3 right-3 bg-primary text-white text-[11px] font-bold px-2.5 py-1 rounded shadow">
+                12,000+ Books
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <span class="text-xs font-bold text-secondary uppercase flex items-center gap-1">
+                  <span class="material-symbols-outlined text-sm">local_library</span> Resource Hub
+                </span>
+                <h3 class="font-headline-sm text-lg font-bold text-primary mt-1">Central College Library</h3>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-1.5">
+                  Extensive reference archives, journals, quiet reading bays, and digital catalogs for UG &amp; PG research.
+                </p>
+              </div>
+              <div class="text-[11px] font-semibold text-outline flex items-center gap-1 pt-2 border-t border-outline-variant">
+                <span class="material-symbols-outlined text-xs">schedule</span> Open 8:30 AM - 5:00 PM
+              </div>
+            </div>
+          </div>
+
+          <!-- Facility 2: Science Laboratories -->
+          <div class="bg-surface-container-low rounded-xl overflow-hidden border border-primary/20 hover:border-primary shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img alt="Science Laboratories Gyan Inter College" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80"/>
+              <span class="absolute top-3 right-3 bg-primary text-white text-[11px] font-bold px-2.5 py-1 rounded shadow">
+                Modern Apparatus
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <span class="text-xs font-bold text-secondary uppercase flex items-center gap-1">
+                  <span class="material-symbols-outlined text-sm">science</span> Practical Research
+                </span>
+                <h3 class="font-headline-sm text-lg font-bold text-primary mt-1">Science &amp; Wet Labs</h3>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-1.5">
+                  Dedicated laboratories for Physics, Chemistry, Botany, and Zoology meeting state university standards.
+                </p>
+              </div>
+              <div class="text-[11px] font-semibold text-outline flex items-center gap-1 pt-2 border-t border-outline-variant">
+                <span class="material-symbols-outlined text-xs">verified</span> Certified Safety Protocols
+              </div>
+            </div>
+          </div>
+
+          <!-- Facility 3: Computer Lab -->
+          <div class="bg-surface-container-low rounded-xl overflow-hidden border border-primary/20 hover:border-primary shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img alt="Modern Computer Laboratory Gyan Inter College" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"/>
+              <span class="absolute top-3 right-3 bg-primary text-white text-[11px] font-bold px-2.5 py-1 rounded shadow">
+                High-Speed Fiber
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <span class="text-xs font-bold text-secondary uppercase flex items-center gap-1">
+                  <span class="material-symbols-outlined text-sm">terminal</span> IT &amp; Digital
+                </span>
+                <h3 class="font-headline-sm text-lg font-bold text-primary mt-1">Computer Technology Lab</h3>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-1.5">
+                  High-speed networked desktop workstations, digital literacy modules, and computer science practicals.
+                </p>
+              </div>
+              <div class="text-[11px] font-semibold text-outline flex items-center gap-1 pt-2 border-t border-outline-variant">
+                <span class="material-symbols-outlined text-xs">wifi</span> 100% Wi-Fi Enabled
+              </div>
+            </div>
+          </div>
+
+          <!-- Facility 4: Sports Complex -->
+          <div class="bg-surface-container-low rounded-xl overflow-hidden border border-primary/20 hover:border-primary shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img alt="Sports and Athletic Complex Gyan Inter College" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80"/>
+              <span class="absolute top-3 right-3 bg-primary text-white text-[11px] font-bold px-2.5 py-1 rounded shadow">
+                Spacious Field
+              </span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3">
+              <div>
+                <span class="text-xs font-bold text-secondary uppercase flex items-center gap-1">
+                  <span class="material-symbols-outlined text-sm">fitness_center</span> Physical Health
+                </span>
+                <h3 class="font-headline-sm text-lg font-bold text-primary mt-1">Sports &amp; Athletics</h3>
+                <p class="text-xs text-on-surface-variant leading-relaxed mt-1.5">
+                  Spacious cricket ground, volleyball, badminton court, athletic tracks, and annual sports championship meets.
+                </p>
+              </div>
+              <div class="text-[11px] font-semibold text-outline flex items-center gap-1 pt-2 border-t border-outline-variant">
+                <span class="material-symbols-outlined text-xs">emoji_events</span> Annual Sports Meet
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ADMISSION CALLOUT BANNER ================= -->
+    <section class="py-14 px-4 md:px-6 bg-surface-container-low border-y-2 border-primary/20">
+      <div class="max-w-7xl mx-auto bg-gradient-to-r from-primary-dark via-primary to-primary-container text-white rounded-2xl p-8 md:p-12 shadow-2xl flex flex-col lg:flex-row items-center justify-between gap-8">
+        <div class="space-y-3 text-center lg:text-left max-w-2xl">
+          <span class="inline-block px-3 py-1 bg-secondary-fixed text-primary-dark rounded text-xs font-bold uppercase tracking-wider">
+            Admission Notice 2025–26
+          </span>
+          <h2 class="font-headline-lg text-3xl md:text-4xl font-bold leading-tight">
+            Take the First Step Towards Your Degree
+          </h2>
+          <p class="text-white/90 text-sm md:text-base leading-relaxed">
+            Direct counseling, document verification, and prospectus available at our Sikandra campus. Call our helpline or register your enquiry online today.
+          </p>
+          <div class="flex flex-wrap gap-4 text-xs font-semibold text-white/90 pt-1">
+            <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span> Phone: +91 6543223443</span>
+            <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span> Email: gyanintercollage@gmail.com</span>
+            <span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm text-secondary-fixed">check_circle</span> Location: Sikandra, Agra</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center gap-4 shrink-0">
+          <a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-white text-primary hover:bg-surface-container-low font-bold text-sm rounded-lg shadow-xl transition-all" href="tel:6543223443">
+            <span class="material-symbols-outlined text-lg material-symbols-fill">call</span>
+            <span>Call: 6543223443</span>
+          </a>
+          <a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-secondary-fixed hover:bg-secondary-fixed-dim text-primary-dark font-bold text-sm rounded-lg shadow-xl transition-all" href="contact.html">
+            <span class="material-symbols-outlined text-lg">edit_note</span>
+            <span>Online Admission Enquiry</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= INSTITUTIONAL MULTI-COLUMN FOOTER ================= -->
+  <footer class="w-full border-t-4 border-primary bg-primary-dark text-white pt-14 pb-8 px-4 md:px-6">
+    <div class="max-w-7xl mx-auto">
+      
+      <!-- Top 4 Columns Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-10 border-b border-white/20">
+        
+        <!-- Column 1: College Overview (4 Cols) -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-full overflow-hidden bg-white p-0.5 border border-white/30 shrink-0">
+              <img alt="Gyan Inter College Crest" class="w-full h-full object-contain" src="assets/logo.svg"/>
+            </div>
+            <div>
+              <span class="font-headline-sm font-bold text-lg md:text-xl text-white tracking-tight leading-tight block">
+                GYAN INTER COLLEGE
+              </span>
+              <span class="text-[11px] text-white/80 uppercase font-semibold">Sikandra, Agra • Affiliated &amp; Approved</span>
+            </div>
+          </div>
+          <p class="text-xs text-white/80 leading-relaxed max-w-sm">
+            Gyan Inter College is committed to providing exemplary higher education in B.A., B.Sc., M.A., and M.Sc. curricula, empowering students with critical thought, moral character, and lifelong professional skills.
+          </p>
+          <div class="pt-2 text-xs text-secondary-fixed font-bold flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-base">verified</span> State University Affiliation Compliant
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links (2 Cols) -->
+        <div class="lg:col-span-2 space-y-3">
+          <p class="text-xs font-bold text-secondary-fixed uppercase tracking-wider">
+            Quick Navigation
+          </p>
+          <ul class="space-y-2 text-xs text-white/80">
+            <li><a class="hover:text-white transition-colors" href="index.html">Home</a></li>
+            <li><a class="hover:text-white transition-colors" href="about.html">About College</a></li>
+            <li><a class="hover:text-white transition-colors" href="courses.html">Academic Programs</a></li>
+            <li><a class="hover:text-white transition-colors" href="about.html#leadership">Leadership Desk</a></li>
+            <li><a class="hover:text-white transition-colors" href="contact.html">Contact &amp; Enquiry</a></li>
+            <li><a class="hover:text-white transition-colors" href="contact.html#campus-map">Campus Map</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Academic Programs (3 Cols) -->
+        <div class="lg:col-span-3 space-y-3">
+          <p class="text-xs font-bold text-secondary-fixed uppercase tracking-wider">
+            Programs Offered
+          </p>
+          <ul class="space-y-2 text-xs text-white/80">
+            <li><a class="hover:text-white transition-colors" href="courses.html#ba">B.A. (Bachelor of Arts)</a></li>
+            <li><a class="hover:text-white transition-colors" href="courses.html#bsc">B.Sc. (Bachelor of Science)</a></li>
+            <li><a class="hover:text-white transition-colors" href="courses.html#ma">M.A. (Master of Arts)</a></li>
+            <li><a class="hover:text-white transition-colors" href="courses.html#msc">M.Sc. (Master of Science)</a></li>
+            <li><a class="hover:text-white transition-colors" href="courses.html#eligibility">Admission Guidelines</a></li>
+            <li><a class="hover:text-white transition-colors" href="courses.html#scholarships">UP Government Scholarships</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Information (3 Cols) -->
+        <div class="lg:col-span-3 space-y-3">
+          <p class="text-xs font-bold text-secondary-fixed uppercase tracking-wider">
+            Campus Contact
+          </p>
+          <div class="space-y-2.5 text-xs text-white/85">
+            <div class="flex items-start gap-2.5">
+              <span class="material-symbols-outlined text-secondary-fixed text-base shrink-0 mt-0.5">location_on</span>
+              <span>Sikandra, Agra, Uttar Pradesh, India</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-secondary-fixed text-base shrink-0">call</span>
+              <a class="hover:text-secondary-fixed font-bold text-white transition-colors" href="tel:6543223443">+91 6543223443</a>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-secondary-fixed text-base shrink-0">mail</span>
+              <a class="hover:text-secondary-fixed transition-colors" href="mailto:gyanintercollage@gmail.com">gyanintercollage@gmail.com</a>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span class="material-symbols-outlined text-secondary-fixed text-base shrink-0 mt-0.5">schedule</span>
+              <span>Mon – Sat: 8:30 AM – 4:30 PM</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Base Attribution Strip -->
+      <div class="pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-white/70 gap-3 text-center md:text-left">
+        <p>
+          &copy; 2026 Gyan Inter College, Sikandra, Agra. All Rights Reserved. Affiliated to State University.
+        </p>
+        <div class="flex items-center gap-4 text-xs font-semibold">
+          <span class="text-secondary-fixed">Sikandra • Agra</span>
+          <span>•</span>
+          <span class="text-white/80">Code of Ethics &amp; Integrity</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= INLINE SCRIPT FOR MICRO-INTERACTIONS ================= -->
+  <script>
+    // Mobile navigation toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = document.getElementById('menuIcon');
+    mobileMenuBtn?.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.toggle('hidden');
+      if (menuIcon) {
+        menuIcon.textContent = isHidden ? 'menu' : 'close';
+      }
+    });
+
+    // Hero Carousel Functionality
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.carousel-dot');
+    const slideNumberDisplay = document.getElementById('currentSlideDisplay');
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+      currentSlide = (index + slides.length) % slides.length;
+      slides.forEach((slide, idx) => {
+        if (idx === currentSlide) {
+          slide.classList.remove('opacity-0');
+          slide.classList.add('opacity-100');
+        } else {
+          slide.classList.remove('opacity-100');
+          slide.classList.add('opacity-0');
+        }
+      });
+
+      dots.forEach((dot, idx) => {
+        if (idx === currentSlide) {
+          dot.classList.remove('w-2.5', 'bg-white/40');
+          dot.classList.add('w-8', 'bg-secondary-fixed');
+        } else {
+          dot.classList.remove('w-8', 'bg-secondary-fixed');
+          dot.classList.add('w-2.5', 'bg-white/40');
+        }
+      });
+
+      if (slideNumberDisplay) {
+        slideNumberDisplay.textContent = `0${currentSlide + 1}`;
+      }
+    }
+
+    function nextSlide() {
+      showSlide(currentSlide + 1);
+      resetAutoSlide();
+    }
+
+    function prevSlide() {
+      showSlide(currentSlide - 1);
+      resetAutoSlide();
+    }
+
+    function goToSlide(index) {
+      showSlide(index);
+      resetAutoSlide();
+    }
+
+    function startAutoSlide() {
+      slideInterval = setInterval(() => {
+        showSlide(currentSlide + 1);
+      }, 5000);
+    }
+
+    function resetAutoSlide() {
+      clearInterval(slideInterval);
+      startAutoSlide();
+    }
+
+    startAutoSlide();
+
+    // Vision and Mission tab switching
+    function switchTab(tab) {
+      const visionContent = document.getElementById('visionContent');
+      const missionContent = document.getElementById('missionContent');
+      const tabVisionBtn = document.getElementById('tabVisionBtn');
+      const tabMissionBtn = document.getElementById('tabMissionBtn');
+
+      if (tab === 'vision') {
+        visionContent.classList.remove('hidden');
+        missionContent.classList.add('hidden');
+        tabVisionBtn.className = "px-6 py-2.5 rounded-lg text-sm font-bold transition-all duration-200 bg-primary text-white shadow";
+        tabMissionBtn.className = "px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary";
+      } else {
+        missionContent.classList.remove('hidden');
+        visionContent.classList.add('hidden');
+        tabMissionBtn.className = "px-6 py-2.5 rounded-lg text-sm font-bold transition-all duration-200 bg-primary text-white shadow";
+        tabVisionBtn.className = "px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary";
+      }
+    }
+  </script>
+</body>
+</html>
