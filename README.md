@@ -50,11 +50,11 @@ college-website/
 ## 🚀 How to Run Locally
 1. Clone this repository:
    ```bash
-   git clone https://github.com/kanishka290107/college-website.git
+   git clone https://github.com/kanishka290107/college-website-2.git
    ```
 2. Open the directory:
    ```bash
-   cd college-website
+   cd college-website-2
    ```
 3. Start a local server:
    ```bash
